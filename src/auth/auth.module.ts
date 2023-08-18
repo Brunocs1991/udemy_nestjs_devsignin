@@ -11,7 +11,7 @@ import { JwtStrategy } from './strategies/jwt.strategy';
   imports: [
     MongooseModule.forFeature([
       {
-        name: 'Users',
+        name: 'User',
         schema: UsersSchema,
       },
     ]),
